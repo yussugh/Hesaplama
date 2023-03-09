@@ -82,3 +82,11 @@ i{
     margin: 5px 5px;
     cursor: pointer;
 }
+
+@media ( max-width: 800px) {
+
+    .container{
+        width: 100vw;
+    }
+    
+}
