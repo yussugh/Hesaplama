@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.container{
+    width: 70vw;
+    height: 50vh;
+    background-color: white;
+border-radius: 5px;
+}
+
+
+.form{
+    display: flex;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+    
+.buton{
+    display:flex ;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button{
+    padding: 0 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.harcama{
+    border:  none;
+    outline: none;
+}
+
+.fiyat{
+    border:  none;
+    outline: none;
+}
+
+.hesaplar{
+    height: 80%;
+    margin: 10px 20px; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: auto;
+}
+
+.hesap{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 20px;
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+i{
+    font-size: 30px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
