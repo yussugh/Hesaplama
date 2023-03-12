@@ -26,6 +26,8 @@ border-radius: 5px;
     display: flex;
     padding-left: 8px;
     padding-top: 10px;
+    justify-content: space-between;
+    flex-direction: column;
 }
     
 .buton{
@@ -44,17 +46,9 @@ button{
     cursor: pointer;
 }
 
-.harcama{
-    border:  none;
-    outline: none;
-}
 
-.fiyat{
-    border:  none;
-    outline: none;
-}
 
-.hesaplar{
+#hesaplar{
     height: 80%;
     margin: 10px 20px; 
     padding: 10px;
@@ -77,16 +71,39 @@ h3{
     font-size: 23px;
 }
 
-i{
-    font-size: 30px;
-    margin: 5px 5px;
-    cursor: pointer;
+img{
+   width: 30px;
+   cursor: pointer;
 }
 
-@media ( max-width: 800px) {
 
-    .container{
-        width: 100vw;
-    }
+
+#fiyat{
+    margin-left: 28px;
+    background-color: aqua;
+
+}
+
+#harcama{
+    background-color: aqua;
+}
+
+
+
+
+label{
+    font-weight: bold;
+}
+
+.verialani{
+    margin: 5px 0;
     
 }
+
+
+::placeholder{
+    color: red;
+    font-weight: bold;
+}
+
+
