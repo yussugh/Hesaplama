@@ -6,4 +6,4 @@
 <br>Html Css Javascript </h3>
 
 
-<a href="hesaplamalar.netlify.app">Site'ye Buradan Ulaşınız</a>
+<a href="https://hesaplamalar.netlify.app/">Site'ye Buradan Ulaşınız</a>
