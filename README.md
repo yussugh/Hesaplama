@@ -1,3 +1,1 @@
-# Hesaplama
-# Hesaplama
-# Hesaplama
+# hesaplama
